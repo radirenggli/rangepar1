@@ -1,9 +1,22 @@
 {
   "expo": {
+    "name": "RangePar",
+    "slug": "rangepar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "rangepar",
+    "userInterfaceStyle": "automatic",
     "web": {
       "bundler": "metro",
-      "output": "static", 
-      "favicon": "./assets/images/favicon.png"
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "description": "Randomized golf practice for driving ranges",
+      "themeColor": "#2D7F3E",
+      "backgroundColor": "#F5F5F0",
+      "display": "standalone",
+      "scope": "/",
+      "startUrl": "/"
     }
   }
 }
