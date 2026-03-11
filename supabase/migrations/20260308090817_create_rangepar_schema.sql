@@ -1,8 +1,8 @@
 /*
-  # RPG Golf - Initial Database Schema
+  # RangePar - Initial Database Schema
 
   ## Overview
-  This migration creates the complete database structure for the RPG Golf app,
+  This migration creates the complete database structure for the RangePar app,
   a driving range practice application for iOS and Android.
 
   ## New Tables
