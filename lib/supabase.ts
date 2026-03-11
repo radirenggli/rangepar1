@@ -4,7 +4,7 @@ import * as SecureStore from 'expo-secure-store';
 import { Platform } from 'react-native';
 
 const supabaseUrl = process.env.https://xvhhkrcdabfhdfunsmjg.supabase.co!;
-const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY!;
+const supabaseAnonKey = process.env.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2aGhrcmNkYWJmaGRmdW5zbWpnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxODE5OTcsImV4cCI6MjA4ODc1Nzk5N30.MON7SBOMewjShK7UxptzbP1Wb439WEcaKzvDIipNjT4!;
 
 const ExpoSecureStoreAdapter = {
   getItem: (key: string) => {
